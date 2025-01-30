@@ -4,6 +4,7 @@ Id: ADI-HealthcareAgentConsent
 Title: "ADI Healthcare Agent Consent"
 Description: "This profile is used to represent a consent for an advance directive participant such as a healthcare agent or advisor and power or limitation granted to such persons."
 
+* ^abstract = true
 // * obeys HCA-authority-scope-provisionType // provisionType invariant no longer needed since we fix scope to only one LOINC code (81377-4)
 * obeys HCA-consent-category
 * obeys HCA-provision-purpose
@@ -57,18 +58,18 @@ Description: "This profile is used to represent a consent for an advance directi
 * provision.purpose from http://terminology.hl7.org/ValueSet/v3-ActReason (required)
 
 
-Profile: ADIPermitConsent
+Profile: ADIConsentPermit
 Parent: ADIHealthcareAgentConsent
-Id: ADI-PermitConsent
-Title: "ADI Healthcare Agent Permit Consent"
+Id: ADI-ADIConsentPermit
+Title: "ADI Healthcare Agent Consent Permit"
 Description: "This profile is used to represent permit consents for an advance directive participant such as a healthcare agent or advisor and power or limitation granted to such persons."
 
 * provision.type = #permit
 
-Profile: ADIDenyConsent
+Profile: ADIConsentDeny
 Parent: ADIHealthcareAgentConsent
-Id: ADI-DenyConsent
-Title: "ADI Healthcare Agent Deny Consent"
+Id: ADI-ADIConsentDeny
+Title: "ADI Healthcare Agent Consent Deny"
 Description: "This profile is used to represent deny consents for an advance directive participant such as a healthcare agent or advisor and power or limitation granted to such persons."
 
 * provision.type = #deny

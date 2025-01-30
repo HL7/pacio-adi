@@ -19,9 +19,9 @@
 <artifact deprecated="true" id="StructureDefinition/PADI-Goal" key="StructureDefinition-PADI-Goal" name="ADI Goal"/>
 <artifact id="CodeSystem/ADIPreferenceCategoryCS" key="CodeSystem-PADIGoalCategoryCS" name="ADI Goal Category Code System"/>
 <artifact id="StructureDefinition/ADI-HealthcareAgentConsent" key="StructureDefinition-ADI-HealthcareAgentConsent" name="ADI Healthcare Agent Consent"/>
-<artifact id="StructureDefinition/ADI-DenyConsent" key="StructureDefinition-ADI-DenyConsent" name="ADI Healthcare Agent Deny Consent"/>
+<artifact id="StructureDefinition/ADI-ADIConsentDeny" key="StructureDefinition-ADI-ADIConsentDeny" name="ADI Healthcare Agent Consent Deny"/>
+<artifact id="StructureDefinition/ADI-ADIConsentPermit" key="StructureDefinition-ADI-ADIConsentPermit" name="ADI Healthcare Agent Consent Permit"/>
 <artifact id="StructureDefinition/ADI-HealthcareAgentParticipant" key="StructureDefinition-ADI-HealthcareAgentParticipant" name="ADI Healthcare Agent Participant"/>
-<artifact id="StructureDefinition/ADI-PermitConsent" key="StructureDefinition-ADI-PermitConsent" name="ADI Healthcare Agent Permit Consent"/>
 <artifact id="StructureDefinition/ADI-Notary" key="StructureDefinition-ADI-Notary" name="ADI Notary"/>
 <artifact id="StructureDefinition/ADI-OrganDonationObservation" key="StructureDefinition-PADI-OrganDonationObservation" name="ADI Organ Donation"/>
 <artifact id="StructureDefinition/ADI-PMOAdditionalOrdersOrInstructionsServiceRequest" key="StructureDefinition-ADI-PMOAdditionalOrdersOrInstructionsServiceRequest" name="ADI PMO Additional orders or instructions ServiceRequest"/>
